@@ -1,0 +1,386 @@
+@font-face {
+  font-family: "B";
+  src: url("../fonts/BrushScript.ttf") format("truetype");
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+.bloco1{
+text-align: left;
+margin: 2% 10% 2% 10%;
+}
+
+.texto-ola{
+font-weight: 200;
+color:#37ae9eef;
+font-size: 2vw;
+margin-bottom: 1%;
+}
+
+.texto-enzo{
+font-weight: 550;
+font-size: 4vw;
+font-weight: bold;
+margin-bottom: 1%;
+color:#41485e
+}
+
+.texto-profissao{
+font-weight: lighter;
+color: #696c73;
+font-family: "Montserrat";
+font-size:3vw;
+margin-bottom: 1%;
+}
+
+.texto-especialidades{
+color: rgba(74, 72, 72, 0.624);
+font-size: 1.5vw;
+margin-bottom: 2%;
+}
+
+button{
+background-color: #51b499;
+color: #eef8f1;
+padding: 1% 4%;
+border: none;
+border-radius: 6px;
+font-size: 1.2vw;
+font-family: "Montserrat";
+}
+
+.foto-enzo{
+text-align: center;
+}
+
+.enzo{
+width: 25%;
+height: 10%;
+}
+
+.bloco2{
+margin: 2% 30% 3% 36%;
+}
+
+.setar-texto-why{
+text-align: left;
+margin-top: 2%;
+}
+
+.subtitulo-1{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 2.5vw;
+color: #010130;
+font-weight: bold;
+}
+
+.setar-linha{
+text-align: left;
+}
+
+.linha1{
+background-color:  #51b499;
+font-size: 4vw;
+display: inline-block;
+height: 0.3vw;
+width: 4vw;
+border-radius: 20px;
+border:none;
+}
+
+.texto-loren-why{
+text-align: left;
+font-size: 1.5vw;
+margin-bottom: 6%;
+color: #696c73;
+}
+
+.habilidade{
+font-size: 1.6vw;
+}
+
+progress {
+accent-color: #51b499;
+width: 60%;
+margin-bottom: 2%;
+}
+
+.caixa-cinza{
+background-color: #f9f7f7d4;
+height: 65vw;
+}
+
+.alinhar-subtitulo2{
+text-align: center;
+}
+
+.subtitulo-2{
+display: inline-block;
+margin-top: 4%;
+}
+
+.bloco3{
+margin: 2% 10% 2% 28%;
+}
+
+.caixa-habilidade{
+background-color: #ffffff;
+display: inline-block;
+width: 35%;
+height: 20%;
+margin-left: 1%;
+margin-bottom: 2%;
+}
+
+.img-habilidade{
+margin: 3% 2.8%;
+width: 20%;
+height: 20%;
+}
+
+.habilidade{
+font-weight: 500;
+margin: 3% 3%;
+font-size: 1.6vw;
+}
+
+.texto-habilidade{
+margin: 3% 3%;
+color: #838181fe;
+font-size: 1.3vw;
+}
+
+.layout-contato{
+background-color: #51b499;
+color: #eef8f1;
+width: 59vw;
+height: 12vw;
+border-radius: 10px;
+margin-left: 20%;
+margin-bottom: 2%;
+}
+
+.contato{
+padding-top: 1%;
+padding-left:2%;
+font-size: 1.6vw;
+font-weight: 500;
+}
+
+.setar-linha2{
+margin-left: 0%;
+}
+
+.linha2{
+background-color:  #ffffff;
+display: inline-block;
+height: 0.16vw;
+width: 2.7vw;
+border-radius: 20px;
+border:none;
+margin: 0;
+}
+
+.linha3{
+margin-left: 2.3%;
+}
+
+.linha-media{
+width: 0.7vw;
+}
+
+.linha-pequena{
+width: 0.2vw;
+}
+
+.email{
+margin-top: 2%;
+margin-left: 2.2%;
+font-size: 1.3vw;
+}
+
+.fone{
+margin-top: 0.5%;
+margin-left: 2.2%;
+font-size: 1.3vw;
+}
+
+/* Media Queries */
+/* Small */
+
+@media (min-width: 475px){
+  
+.texto-ola{
+font-size: 3vw;
+margin-top: 2%;
+}
+
+.texto-enzo{
+font-size: 5vw;
+color:red;
+}
+
+.texto-profissao{
+font-size:3vw;
+}
+
+.texto-especialidades{
+font-size: 2.5vw;
+margin-top: 2%;
+margin-bottom: 3%;
+}
+
+button{
+padding: 1.5% 4.5%;
+font-size: 2.2vw;
+}
+
+.enzo{
+width: 40%;
+height: 25%;
+}
+
+.bloco2{
+margin: 2% 10% 3% 25%;
+}
+
+.subtitulo-1{
+font-size: 3.5vw;
+}
+
+.texto-loren-why{
+font-size: 3vw;
+margin-bottom: 13%;
+}
+
+.caixa-cinza{
+height: 115vw;
+}
+
+.bloco3{
+margin: 0% 0% 2% 6%;
+}
+
+.caixa-habilidade{
+width: 45%;
+height: 24%;
+}
+
+.img-habilidade{
+margin: 3% 2.8%;
+width: 26%;
+height: 26%;
+}
+
+.habilidade{
+font-size: 3.2vw;
+}
+
+.texto-habilidade{
+font-size: 2.5vw;
+}
+
+.layout-contato{
+width: 90vw;
+height: 18vw;
+margin-left:5%;
+margin-bottom: 20%;
+}
+
+.contato{
+padding-top: 1%;
+padding-left:2%;
+font-size: 3vw;
+}
+
+.email{
+margin-top: 2%;
+margin-left: 2.2%;
+font-size: 2.2vw;
+}
+
+.fone{
+font-size: 2.2vw;
+}
+
+}
+
+/* Media Queries */
+/* Medium */
+
+@media (min-width: 720px){
+
+.texto-ola{
+font-size: 3vw;
+margin-top: 2%;
+}
+
+.texto-enzo{
+font-size: 5vw;
+color:green;
+}
+
+.texto-profissao{
+font-size:3vw;
+}
+
+.texto-especialidades{
+font-size: 2.5vw;
+margin-top: 2%;
+margin-bottom: 3%;
+}
+
+button{
+padding: 1.5% 4.5%;
+font-size: 2.2vw;
+}
+
+}
+
+/* Media Queries */
+/* Large */
+
+@media (min-width: 960px){
+
+
+.texto-ola{
+font-size: 3vw;
+margin-top: 2%;
+}
+
+.texto-enzo{
+font-size: 5vw;
+color:yellow;
+}
+
+.texto-profissao{
+font-size:3vw;
+}
+
+.texto-especialidades{
+font-size: 2.5vw;
+margin-top: 2%;
+margin-bottom: 3%;
+}
+
+button{
+padding: 1.5% 4.5%;
+font-size: 2.2vw;
+}
+  
+
+}
+
+/* Media Queries */
+/* X Large */
+
+@media (min-width: 1200px){
+
+.texto-enzo{
+color:pink ;
+}
+
+
+}
