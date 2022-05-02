@@ -101,6 +101,12 @@ color: #696c73;
 font-size: 1.6vw;
 }
 
+lable{
+  float:right;
+  margin-right: 25%;
+}
+
+
 progress {
 accent-color: #51b499;
 width: 60%;
