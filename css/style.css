@@ -224,7 +224,7 @@ margin-left: 2.2%;
 font-size: 1.3vw;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
 
 .texto-ola{
 font-size: 3.6vw;
@@ -347,7 +347,7 @@ height: 25%;
 
 .habilidade{
 margin: 0% 0% 2% 3%;
-font-size: 3vw;
+font-size: 2.7vw;
 }
 
 .texto-habilidade{
