@@ -1,2 +1,2 @@
-# Pagina-Pessoal-D2.3
-Desafio de front-end 2.3 versao desktop
+# Pagina-Pessoal-D2.4
+Desafio de front-end 2.4 versao responsiva
