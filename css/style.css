@@ -224,6 +224,41 @@ margin-left: 2.2%;
 font-size: 1.3vw;
 }
 
+footer{
+  background-color: rgb(227, 226, 226);
+  width: auto;
+  height: fit-content;
+  text-align: center;
+}
+
+.icones-footer{
+  width: 100%;
+  display: inline-block;
+  margin-top: 5vw;
+}
+
+.icone-rede-social{
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.email-footer{
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.cx-link-footer{
+ width: 100%;
+}
+
+.link-footer{
+  display: inline-block;
+  margin-right: 1.2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+
 @media (max-width: 720px) {
 
 .texto-ola{
